@@ -1,7 +1,9 @@
 import { add } from "date-fns";
 
-console.log(
-  add(new Date(), {
+export const nowDate = () => {
+  return add(new Date(), {
     days: 3,
-  })
-);
+  });
+};
+
+console.log(nowDate());

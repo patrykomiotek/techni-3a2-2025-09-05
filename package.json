@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "now": "node src/now.js",
-    "now-ts": "tsx src/now.ts"
+    "now-ts": "tsx src/now.ts",
+    "server": "tsx src/server.ts"
   },
   "keywords": [],
   "author": "",
